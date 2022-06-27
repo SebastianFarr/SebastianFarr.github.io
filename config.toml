@@ -14,8 +14,8 @@ author = "Sebastian Farr"
 description = ""
 
 ## Set one of:
-gravatar = "soho@example.com"
-profilePicture = "resources/_gen/images/profile.jpg"
+images = ["images/profile.jpg"]
+profilePicture = "images/profile.jpg"
 
 copyright = "Sebastian Farr"
 license = "CC BY-SA 4.0"
@@ -31,11 +31,11 @@ customJs = ["js/blog.js"]
 
 [menu]
 
-#  [[menu.main]]
-#  name = "Posts"
-#  weight = 100
-#  identifier = "posts"
-#  url = "/posts/"
+  [[menu.main]]
+  name = "Posts"
+  weight = 100
+  identifier = "posts"
+  url = "/posts"
 
   [[menu.main]]
   name = "Projects"
