@@ -1,0 +1,74 @@
+baseURL = 'http://sebastianfarr.github.io/'
+languageCode = 'en-us'
+title = 'Sebastian Farr'
+
+theme="soho"
+
+
+
+summarylength = 10
+enableEmoji = true
+
+[params]
+author = "Sebastian Farr"
+description = ""
+
+## Set one of:
+gravatar = "soho@example.com"
+profilePicture = "resources/_gen/images/profile.jpg"
+
+copyright = "Sebastian Farr"
+license = "CC BY-SA 4.0"
+licenseURL = "https://creativecommons.org/licenses/by-sa/4.0"
+
+## Set custom theme color.
+themeColor = "#dc6027"
+
+## Set custom CSS and/or JS to override site defaults.
+customCss = ["css/blog.css"]
+customJs = ["js/blog.js"]
+
+
+[menu]
+
+#  [[menu.main]]
+#  name = "Posts"
+#  weight = 100
+#  identifier = "posts"
+#  url = "/posts/"
+
+  [[menu.main]]
+  name = "Projects"
+  identifier = "projects"
+  weight= 200
+  url = "/projects"
+
+  [[menu.main]]
+  name = "Publications"
+  identifier = "publications"
+  weight= 300
+  url = "/publications"
+
+  [[menu.main]]
+  name = "About Me"
+  identifier = "about"
+  weight = 400
+  url = "/about/"
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+
+[markup]
+
+  [markup.highlight]
+  codeFences = true
+  guessSyntax = false
+  hl_Lines = ""
+  lineNoStart = 1
+  lineNos = false
+  lineNumbersInTable = true
+  noClasses = true # if false, you need to provide you own custom CSS
+  style = "monokai"
+  tabWidth = 4
